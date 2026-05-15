@@ -1,0 +1,1392 @@
+[
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 7.245835,
+    "mep_speedup": 1.0031654638245873
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 6,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 11.764845000000001,
+    "mep_speedup": 0.6178382654910819
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 9.494150000000001,
+    "mep_speedup": 0.7656052862627436
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 4,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 7.26956,
+    "mep_speedup": 0.9998915241873549
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 4,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 29.6537,
+    "mep_speedup": 0.3359960380757111
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 6,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 3.38529,
+    "mep_speedup": 2.1883029223493407
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 9,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 12.601125,
+    "mep_speedup": 0.5878871926117708
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 3.4311749999999996,
+    "mep_speedup": 2.1590388132345337
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 6,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 11.655845,
+    "mep_speedup": 0.6355643885106571
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 10,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 12.412395,
+    "mep_speedup": 0.5968259953054991
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 2.880995,
+    "mep_speedup": 0.8512460848719675
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 6,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.476426,
+    "mep_speedup": 1.6610623995281266
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 7,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.4972949999999998,
+    "mep_speedup": 1.637910842075686
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 10,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.5991365,
+    "mep_speedup": 1.533599986171108
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 7,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.511353,
+    "mep_speedup": 1.622675651740999
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 3,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 2.1806200000000002,
+    "mep_speedup": 1.121911592640101
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 2,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 4.1659749999999995,
+    "mep_speedup": 0.587248568976736
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 3,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 2.00707,
+    "mep_speedup": 1.2189225374017136
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "strided",
+    "num_loops": 4,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 1.9970599999999998,
+    "mep_speedup": 1.225032225943566
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 9.823305,
+    "mep_speedup": 0.33732348008856783
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 7,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 1.0701265,
+    "mep_speedup": 3.09648572254909
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 1.069111,
+    "mep_speedup": 3.0994269337528366
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 12,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 1.0557925,
+    "mep_speedup": 3.138525258108415
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 7,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 1.062247,
+    "mep_speedup": 3.119454729993522
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 14,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 14.46473,
+    "mep_speedup": 0.2113708902373468
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 2,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 5.778975,
+    "mep_speedup": 0.5290597133821927
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 4,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 17.897845,
+    "mep_speedup": 0.17082631217014432
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 18.079485,
+    "mep_speedup": 0.1691100635412379
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 17.962229999999998,
+    "mep_speedup": 0.17021399108812532
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "tiling",
+    "mep_time": 0.7845895,
+    "mep_speedup": 2.97498792134522
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 3,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 4.246525,
+    "mep_speedup": 0.5740428097932175
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 3,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 2.1970549999999998,
+    "mep_speedup": 1.1095248607145216
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "strided",
+    "num_loops": 2,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 2.24797,
+    "mep_speedup": 1.0852292766998035
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 2.025275,
+    "mep_speedup": 1.2045588165275614
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 6.872165000000001,
+    "mep_speedup": 0.3549918922410706
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "strided",
+    "num_loops": 2,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 2.163945,
+    "mep_speedup": 1.127368235857592
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 4,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 1.976845,
+    "mep_speedup": 1.2340688608074266
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "strided",
+    "num_loops": 4,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 2.032555,
+    "mep_speedup": 1.2002444495439766
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 2.181435,
+    "mep_speedup": 1.1183293827883283
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 2.19792,
+    "mep_speedup": 1.109941607129858
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 14,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 2.009805,
+    "mep_speedup": 1.2138306239375747
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 2.055285,
+    "mep_speedup": 1.186970593928753
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 11,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 1.911985,
+    "mep_speedup": 1.2759320063404562
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 15,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 1.997805,
+    "mep_speedup": 1.2211216095378963
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "strided",
+    "num_loops": 6,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 1.352412,
+    "mep_speedup": 1.8038607000994202
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "strided",
+    "num_loops": 3,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 4.90142,
+    "mep_speedup": 0.679414478719578
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "strided",
+    "num_loops": 2,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 3.0550100000000002,
+    "mep_speedup": 1.0900441289179785
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.078388,
+    "mep_speedup": 3.0880311300623844
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 4.92473,
+    "mep_speedup": 0.6761986371406583
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 7,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 4.86835,
+    "mep_speedup": 0.6840296433669958
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.0578925000000001,
+    "mep_speedup": 3.147858326139673
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.0574474999999999,
+    "mep_speedup": 3.149183022595178
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 6,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.062517,
+    "mep_speedup": 3.134157584571084
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.0619505,
+    "mep_speedup": 3.1358295083299215
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 6,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.0564605,
+    "mep_speedup": 3.152125152133671
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "strided",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.060931,
+    "mep_speedup": 3.1388428788353946
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 6,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.0634130000000002,
+    "mep_speedup": 3.131516837095008
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.05382,
+    "mep_speedup": 3.1600232623082825
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.0492725,
+    "mep_speedup": 3.17371866153522
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 7,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.0508915,
+    "mep_speedup": 3.1688292409689427
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "strided",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 5.796430000000001,
+    "mep_speedup": 0.5295616686231253
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "strided",
+    "num_loops": 4,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 7.47993,
+    "mep_speedup": 0.4103737792809749
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "strided",
+    "num_loops": 2,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 5.788745,
+    "mep_speedup": 0.5302647020826005
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.8749885000000002,
+    "mep_speedup": 1.6371125171472478
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "strided",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 5.795160000000001,
+    "mep_speedup": 0.5296777212116909
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.876906,
+    "mep_speedup": 1.6354399969189415
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.8776525,
+    "mep_speedup": 1.6347897935625164
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.8791405,
+    "mep_speedup": 1.6334952830068548
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 7,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.8806734999999999,
+    "mep_speedup": 1.632163766255622
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.8395130000000002,
+    "mep_speedup": 1.6686846697235314
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.8382025,
+    "mep_speedup": 1.669874316272088
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.8358435000000002,
+    "mep_speedup": 1.672020051195618
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 2.098575,
+    "mep_speedup": 1.4626911798992854
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.857365,
+    "mep_speedup": 1.6526461642472765
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.8435155,
+    "mep_speedup": 1.6650617490642974
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 0.0270624,
+    "mep_speedup": 0.9822405150424838
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 18,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 0.0291856,
+    "mep_speedup": 0.9107842810936118
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 10,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 0.0280432,
+    "mep_speedup": 0.9478870355125562
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 16,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 0.0300741,
+    "mep_speedup": 0.8838763492269333
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 0.027732800000000002,
+    "mep_speedup": 0.9584962828955501
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 11,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 0.026723749999999998,
+    "mep_speedup": 0.9946877109045593
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 6,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 0.02750455,
+    "mep_speedup": 0.9664504859845268
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 8,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 0.02883465,
+    "mep_speedup": 0.9218695463369839
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 6,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "memory",
+    "mep_time": 0.0280288,
+    "mep_speedup": 0.9483740193759888
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "strided",
+    "num_loops": 4,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "tiling",
+    "mep_time": 0.030198950000000002,
+    "mep_speedup": 0.9856161034927182
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 9,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 0.027860799999999998,
+    "mep_speedup": 1.0683315421154966
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 4,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 0.0334064,
+    "mep_speedup": 0.8909841056974539
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 4,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.09983,
+    "mep_speedup": 1.713570019262717
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.00812,
+    "mep_speedup": 1.8694557337278443
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.01596,
+    "mep_speedup": 1.855029444353827
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 0.975891,
+    "mep_speedup": 1.9311948919353845
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 2,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 0.984024,
+    "mep_speedup": 1.915233484433016
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.13561,
+    "mep_speedup": 1.6595800620685923
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 0.998706,
+    "mep_speedup": 1.887077592690656
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.30936,
+    "mep_speedup": 1.4393564140387014
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 0.964259,
+    "mep_speedup": 1.9544911836816812
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 0.983375,
+    "mep_speedup": 1.916497484973397
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 0.983808,
+    "mep_speedup": 1.9156539835879707
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 0.989791,
+    "mep_speedup": 1.9040744099367586
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": false,
+    "optimization": "unrolling",
+    "mep_time": 1.30514,
+    "mep_speedup": 1.4440103853117017
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 4,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "unrolling",
+    "mep_time": 0.0313483,
+    "mep_speedup": 0.8951490192450625
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 2,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "unrolling",
+    "mep_time": 0.0300213,
+    "mep_speedup": 0.9347163513905126
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "unrolling",
+    "mep_time": 0.0340533,
+    "mep_speedup": 0.8240434847724007
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "unrolling",
+    "mep_time": 0.0422027,
+    "mep_speedup": 0.6649195430624106
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 2,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "unrolling",
+    "mep_time": 0.0348512,
+    "mep_speedup": 0.8051774400881461
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 2,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "unrolling",
+    "mep_time": 0.0317771,
+    "mep_speedup": 0.8830698836583576
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 4,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0331883,
+    "mep_speedup": 1.4847461304134286
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 3,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0335456,
+    "mep_speedup": 1.4689318420299529
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 2,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0318517,
+    "mep_speedup": 1.5470508638471414
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0333024,
+    "mep_speedup": 1.4796591236667624
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 2,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0311136,
+    "mep_speedup": 1.5837511570502927
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0268811,
+    "mep_speedup": 1.8331169483391674
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0315915,
+    "mep_speedup": 1.5597929822895396
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0304576,
+    "mep_speedup": 1.6178622084471523
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 3,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0362304,
+    "mep_speedup": 1.3600788288288286
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0272128,
+    "mep_speedup": 1.81077287158984
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0280235,
+    "mep_speedup": 1.7583884953699571
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0335563,
+    "mep_speedup": 1.4684634479963523
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0314784,
+    "mep_speedup": 1.5653972247636474
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0333227,
+    "mep_speedup": 1.4787577237138647
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0284715,
+    "mep_speedup": 1.7307201938780883
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0275989,
+    "mep_speedup": 1.7854407240868293
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0321184,
+    "mep_speedup": 1.5342046926372421
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0276,
+    "mep_speedup": 1.785369565217391
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 5,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0267125,
+    "mep_speedup": 1.8446869443144591
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0293227,
+    "mep_speedup": 1.5990264003168682
+  },
+  {
+    "kernel_type": "balanced",
+    "memory_pattern": "coalesced",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0295925,
+    "mep_speedup": 1.5844477968597255
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0317376,
+    "mep_speedup": 1.4773571860686199
+  },
+  {
+    "kernel_type": "compute_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 4,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0325003,
+    "mep_speedup": 1.442687342226731
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0319851,
+    "mep_speedup": 1.4659254286705818
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 3,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0302208,
+    "mep_speedup": 1.5515066255218735
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0308171,
+    "mep_speedup": 1.5214855203303175
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0244864,
+    "mep_speedup": 1.9148495258009113
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 1,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0286923,
+    "mep_speedup": 1.6341586916549538
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 2,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0297013,
+    "mep_speedup": 1.5786437438284329
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0322688,
+    "mep_speedup": 1.4530373434578117
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0275477,
+    "mep_speedup": 1.7020575739016843
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0300064,
+    "mep_speedup": 1.562592361248648
+  },
+  {
+    "kernel_type": "memory_bound",
+    "memory_pattern": "coalesced",
+    "num_loops": 0,
+    "is_2d": true,
+    "uses_shared_memory": true,
+    "optimization": "memory",
+    "mep_time": 0.0284619,
+    "mep_speedup": 1.6473872590575975
+  }
+]
