@@ -1,5 +1,7 @@
 import os
 import json
+import subprocess
+import tempfile
 
 MEMORY_FILE = "kernel_memory.json"
 
@@ -20,9 +22,6 @@ def update_memory(entry):
 
 
 def get_hardware_profile():
-    import subprocess
-    import tempfile
-    import os
 
     code = r'''
     #include <stdio.h>

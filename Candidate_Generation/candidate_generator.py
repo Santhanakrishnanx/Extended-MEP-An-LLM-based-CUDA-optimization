@@ -463,9 +463,6 @@ def generate_candidates(kernel_code, num_candidates=3, strategy=None, context=No
         - Avoid increasing register pressure
         - Optimization must not degrade downstream kernels
         ADVANCED OPTIMIZATION OPTION:
-        
-        ADVANCED OPTIMIZATION OPTION:
-
         If kernel is part of a multi-stage pipeline AND intermediate results are written to global memory and read again:
         
         - You MAY fuse computations to eliminate intermediate global memory
@@ -583,7 +580,7 @@ def generate_candidates(kernel_code, num_candidates=3, strategy=None, context=No
         kernels = extract_complete_kernels(text)
 
         if not kernels:
-            print("❌ No valid kernel extracted")
+            print("No valid kernel extracted")
             continue
 
         k = kernels[0]

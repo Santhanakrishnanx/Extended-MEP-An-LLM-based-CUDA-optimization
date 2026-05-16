@@ -36,7 +36,6 @@ def extract_all_kernels(cuda_code):
     return kernels
 
 def extract_complete_kernels(text):
-    import re
 
     text = text.replace("```cpp", "")
     text = text.replace("```cuda", "")
@@ -85,7 +84,6 @@ def extract_complete_kernels(text):
     return kernels
 
 def extract_signature(kernel_code):
-    import re
     match = re.search(r"__global__\s+void\s+(\w+)\s*\((.*?)\)", kernel_code, re.DOTALL)
     if not match:
         return None

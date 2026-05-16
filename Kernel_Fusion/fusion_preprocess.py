@@ -151,8 +151,7 @@ def fusion_preprocess(cuda_code, kernels):
     return kernels, cuda_code
 
 def remove_kernel(code, kernel_name):
-    import re
-
+    
     if not isinstance(code, str):
         print("ERROR: code is not string in remove_kernel")
         print("Type:", type(code))

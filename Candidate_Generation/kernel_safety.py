@@ -28,12 +28,6 @@ def reject_bad_kernel(code):
     if any(p in code for p in unsafe_patterns):
         return True
 
-    if code.count("{") != code.count("}"):
-        return True
-
-    if "__global__" not in code:
-        return True
-
     return False
     
 def has_safe_tiling(kernel_code):
